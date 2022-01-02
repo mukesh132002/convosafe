@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity"
+ android:orientation="vertical"
+ android:background="@drawable/avs">
+ <TextView
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:layout_margin="20dp"
+ android:text=" CONVOSAFE"
+ android:textColor="#FA091D"
+ android:textSize="35dp"
+ android:textStyle="bold|italic" />
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_margin="30dp"
+ android:orientation="horizontal"
+ android:padding="20dp"
+ >
+ <LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ <ImageView
+ android:layout_width="75dp"
+ android:layout_height="75dp"
+ android:layout_gravity="center_horizontal"
+ android:onClick="aes"
+ android:src="@drawable/aaes"
+ tools:ignore="OnClick" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:text="AES"
+ android:textColor="#F8F5F5"
+ android:textSize="20sp"
+ android:textStyle="bold" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ <ImageView
+ android:layout_width="75dp"
+ android:layout_height="75dp"
+ android:layout_gravity="center_horizontal"
+ android:onClick="des"
+ android:src="@drawable/aaes"
+ tools:ignore="OnClick" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:text="DES"
+ android:textColor="#F8F3F3"
+ android:textSize="20sp"
+ android:textStyle="bold" />
+ </LinearLayout>
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_margin="40dp"
+ android:layout_marginBottom="40dp"
+ android:orientation="horizontal"
+ android:padding="30dp">
+ <LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ <ImageView
+ android:layout_width="75dp"
+ android:layout_height="75dp"
+ android:layout_gravity="center_horizontal"
+ android:onClick="rsa"
+ android:src="@drawable/aaes"
+ tools:ignore="OnClick" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:text="RSA"
+ android:textColor="#FAF7F7"
+ android:textSize="20sp"
+ android:textStyle="bold" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ <ImageView
+ android:layout_width="75dp"
+ android:layout_height="75dp"
+ android:layout_gravity="center_horizontal"
+ android:onClick="md5"
+ android:src="@drawable/aaes"
+ tools:ignore="OnClick" />
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_gravity="center_horizontal"
+ android:text="MD5"
+ android:textColor="#F8F6F6"
+ android:textSize="20sp"
+ android:textStyle="bold" />
+ </LinearLayout>
+ </LinearLayout>
+</LinearLayout>
